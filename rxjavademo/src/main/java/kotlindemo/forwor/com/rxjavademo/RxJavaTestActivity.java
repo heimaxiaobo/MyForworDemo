@@ -38,6 +38,7 @@ public class RxJavaTestActivity extends AppCompatActivity {
                 e.onNext("你好！！");
                 e.onNext("你好！！4");
                 e.onNext("你好！！5");
+                e.onNext("你好！！6");
                 e.onComplete();
             }
         });
