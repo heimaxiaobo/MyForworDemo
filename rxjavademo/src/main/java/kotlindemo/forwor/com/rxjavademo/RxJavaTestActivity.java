@@ -76,7 +76,7 @@ public class RxJavaTestActivity extends AppCompatActivity {
                 e.onNext("嗨咯3");
                 e.onNext("嗨咯3");
                 e.onNext("嗨咯4");
-
+                e.onNext("嗨咯5");
 
                 e.onComplete();
             }
