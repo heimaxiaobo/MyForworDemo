@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 import com.blankj.utilcode.util.LogUtils;
 
+import java.util.ArrayList;
+
 import androidx.appcompat.app.AppCompatActivity;
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
@@ -176,6 +178,8 @@ public class RxJavaTestActivity extends AppCompatActivity {
         Integer[] items = {1, 2, 3, 4};
         Observable.fromArray(items).subscribe();
 
-        //
+        //4.forArray() 数组对象拆分成多个事件发送
+        ArrayList<Object> objects = new ArrayList<>();
+        Observable.fromIterable(objects).subscribe();
     }
 }
